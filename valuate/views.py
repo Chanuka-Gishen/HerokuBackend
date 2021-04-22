@@ -63,19 +63,11 @@ def get_valuate_inputs(request):
         return JsonResponse("Input Saved successfully..!" , safe=False)
     return JsonResponse("Failed to Add.",safe=False)
 
-<<<<<<< HEAD
 @csrf_exempt
-=======
-<<<<<<< HEAD
-@csrf_exempt
-=======
->>>>>>> 57010dc66c7dfd8b11e12266fe8d17c721db3e6a
->>>>>>> 848a9d980a02ae766012861a4f2106128c8a45c5
 def get_saved_inputs(request):
     data = UserValuationDetails.objects.all()
     user_serializer = UserInputSerializer(data, many=True)
     return JsonResponse(user_serializer.data, safe=False)
-<<<<<<< HEAD
 
 @csrf_exempt
 def land_detail(request):
@@ -90,6 +82,4 @@ def land_detail(request):
         generate_str = "wetland is an area of land that is either covered by water or saturated with water. Inside this range in galle we have famous schools near by, but location like this is not suitable for living except you build the surface."  
 
     return HttpResponse(generate_str)
-=======
->>>>>>> 848a9d980a02ae766012861a4f2106128c8a45c5
 
