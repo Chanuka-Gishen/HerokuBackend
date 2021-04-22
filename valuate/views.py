@@ -63,7 +63,10 @@ def get_valuate_inputs(request):
         return JsonResponse("Input Saved successfully..!" , safe=False)
     return JsonResponse("Failed to Add.",safe=False)
 
+<<<<<<< HEAD
 @csrf_exempt
+=======
+>>>>>>> 57010dc66c7dfd8b11e12266fe8d17c721db3e6a
 def get_saved_inputs(request):
     data = UserValuationDetails.objects.all()
     user_serializer = UserInputSerializer(data, many=True)
