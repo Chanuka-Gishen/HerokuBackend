@@ -20,7 +20,6 @@ class Migration(migrations.Migration):
                 ('distance_to_town', models.CharField(max_length=50)),
                 ('year', models.CharField(max_length=4)),
                 ('lane', models.CharField(max_length=50)),
-                ("predicted_value", models.CharField(max_length=50))
             ],
         ),
     ]
