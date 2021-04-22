@@ -9,7 +9,16 @@ class UserInputSerializer(serializers.ModelSerializer):
             'land_type',
             'distance_to_town',
             'calculate_year',
+<<<<<<< HEAD
             'lane',
             'predicted_value'
+=======
+<<<<<<< HEAD
+            'lane',
+            'predicted_value'
+=======
+            'lane'
+>>>>>>> 57010dc66c7dfd8b11e12266fe8d17c721db3e6a
+>>>>>>> 848a9d980a02ae766012861a4f2106128c8a45c5
         )
         

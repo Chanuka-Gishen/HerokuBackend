@@ -33,6 +33,10 @@ urlpatterns = [
     path('auth/', obtain_auth_token),
     path('give_predictions/', include('user.urls')),
     path('get_valuate_inputs/', include('valuate.urls')),
+<<<<<<< HEAD
     path('get_data/', include('valuate.urls')),
     path('generated_result/', include('valuate.urls')),
+=======
+    path('get_data/', include('valuate.urls'))
+>>>>>>> 848a9d980a02ae766012861a4f2106128c8a45c5
 ]
