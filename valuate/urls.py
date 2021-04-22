@@ -7,4 +7,6 @@ urlpatterns = [
     path('export_csv/', views.export_csv),
     path('give_predictions/', views.give_predictions),
     path('get_valuate_inputs/', views.get_valuate_inputs),
+    path('get_data/', views.get_saved_inputs),
+    path('generated_result/', views.land_detail),
 ]
