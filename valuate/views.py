@@ -69,3 +69,8 @@ def get_saved_inputs(request):
     user_serializer = UserInputSerializer(data, many=True)
     return JsonResponse(user_serializer.data, safe=False)
 
+def deleteDataModel(request):
+    data = UserValuationDetails.objects.all()
+    data.delete()
+    return HttpResponse("Delete!!")
+

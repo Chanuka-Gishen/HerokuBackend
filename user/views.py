@@ -29,6 +29,8 @@ def index(request):
 def loancalculator(request):
     return HttpResponse("Connected")
 
+
+
         
 
 

@@ -40,9 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'weburl.apps.WeburlConfig',
-    'valuate.apps.ValuateConfig',
     'user.apps.UserConfig',
+    'valuate.apps.ValuateConfig',
+    'weburl.apps.WeburlConfig',
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True

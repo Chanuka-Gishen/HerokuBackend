@@ -33,5 +33,6 @@ urlpatterns = [
     path('auth/', obtain_auth_token),
     path('give_predictions/', include('user.urls')),
     path('get_valuate_inputs/', include('valuate.urls')),
-    path('get_data/', include('valuate.urls'))
+    path('get_data/', include('valuate.urls')),
+    path('delete_model/', include('valuate.urls')),
 ]
